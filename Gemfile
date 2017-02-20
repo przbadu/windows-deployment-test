@@ -17,7 +17,11 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'rspec'
+  gem 'pry-rails'
+
+  gem 'rspec-rails', '~> 3.5'
+  gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
   gem 'database_cleaner'
 end
 
